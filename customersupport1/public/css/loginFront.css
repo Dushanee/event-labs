@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --form-cage-background: #fff;
+    --box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.15);
+    --border-radius: 5px;
+    --link-colors: rgb(155, 155, 155);
+    --btn-background: #4C4B84;
+    --btn-text-color: #fff;
+    --decision-color: #4C4B84;
+    --input-background-color: #f0f0f0;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.form-cage {
+    margin-top: 10%;
+    width: 30%;
+    height: auto;
+    align-self: center;
+    /* border: 1px solid black; */
+    background-color: var(--form-cage-background);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.data-cage {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-cage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn {
+    width: 80%;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: var(--border-radius);
+    border-style: none;
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+    transition: all 0.4s ease-in-out;
+}
+
+.login-btn:hover {
+    transform: translate(-3px, -3px);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 10px 0px #a5efea; */
+    transition: all 0.4s ease-in-out;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links .l-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    height: 30px;
+    border-style: none;
+    border-radius: var(--border-radius);
+    background-color: var(--input-background-color);
+    padding: 5px;
+}
+
+.text-label {
+    padding: 5px;
+}
+
+.tocenterthispest {
+    display: flex;
+    justify-content: center;
+}
+
+.l-1 a{
+    color: var(--link-colors);
+    text-decoration: none;
+    font-size: small;
+}
+
+.error {
+    align-self: center;
+    background-color: red;
+    color: white;
+    /* font-size: 12px; */
+    width: 100%;
+    height: 40%;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.cheer {
+    align-self: center;
+    background-color: green;
+    color: white;
+    /* font-size: 12px; */
+    width: 100%;
+    height: 40%;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.inter-cage {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.decide {
+    text-decoration: none;
+    color: var(--decision-color);
+}
+
+.reset-field {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: var(--form-cage-background);
+    /* border-style: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+}
+
+.reset-card {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reset-title {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.reset-cage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: relative; */
+    width: auto;
+}
+
+.reset-label {
+    color: black;
+    padding: 5px;
+}
+
+.reset-input {
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: var(--input-background-color);
+    padding: 5px;
+}
+
+.reset-button {
+    display: flex;
+    justify-content: center;
+}
+
+.resetpwdbutton {
+    height: 30px;
+    width: 300px;
+    background-color: var(--btn-background);
+    color: var(--btn-text-color);
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.reset-backlink {
+    display: flex;
+    justify-content: center;
+}
+
+.go-back {
+    text-decoration: none;
+    color: var(--decision-color);
+}

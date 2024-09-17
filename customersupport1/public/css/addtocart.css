@@ -1,0 +1,283 @@
+:root {
+    --imageWidth: 80px;
+    --imageHeight:80px;
+    --ribbonBackground: #4c4b84;
+    --tdpadding: 10px 5px;
+    --anchorSize: 12px;
+    --tdLeftMargin: 10px;
+    --contentLeftMargin: 10%;
+    --buttonWidth: 400px;
+    --data-headingColor: #fff;
+    --opacityReduced: #8d8da7
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart-page {
+    margin: 80px auto;
+}
+
+.discr {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: var(--contentLeftMargin);
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: var(--data-headingColor);
+    background: var(--ribbonBackground);
+}
+
+td {
+    padding: var(--tdpadding);
+}
+
+.orderDetails {
+    margin-left: 4%;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: var(--ribbonBackground);
+    font-size: var(--anchorSize);
+}
+
+.cart-info .image {
+    width: 130px;
+    height: 130px;
+}
+
+.cart-info .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: var(--contentLeftMargin);
+}
+
+.total-price .calc{
+    border-top: 3px solid var(--ribbonBackground);
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.orderInfo {
+    margin-left: 10%;
+}
+
+.cancelPolicy a{
+    font-size: var(--anchorSize);
+    color: var(--ribbonBackground);
+    text-decoration: none;
+}
+
+button {
+    max-width: var(--buttonWidth);
+    height: auto;
+    background-color: var(--ribbonBackground);
+    color: var(--data-headingColor);
+    margin-top: 2%;
+    margin-left: 64%;
+    padding: var(--tdpadding);
+    border-style: none;
+}
+
+.ordersList {
+    margin-left: var(--contentLeftMargin)
+}
+
+.fline {
+    display: flex
+}
+
+.title {
+    justify-content: left;
+}
+
+select {
+    justify-content: right;
+}
+
+.live-chat {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.live-chat .liveChat {
+    font-size: small;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-size: medium;
+    width: 10%;
+}
+
+.checkout-contents {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-cage {
+    width: 72.5%;
+}
+
+.summary-cage {
+    width: 22.5%;
+}
+
+.checkout-fillings {
+    width: 100%;
+    height: 5%;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-cage {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--ribbonBackground);
+}
+
+.heading-cage .edit{
+    padding: 5%;
+    color: var(--data-headingColor);
+    text-decoration: none;
+}
+
+.data-heading {
+    color: var(--data-headingColor);
+    padding-left: 2%;
+}
+
+.data-cage {
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.label-cage {
+    width: 35%;
+}
+
+.Answer-cage {
+    width: 50%;
+}
+
+.cart-data-cage {
+    margin: 2%;
+    display: flex;
+}
+
+.cart-label-cage {
+    width: 50%;
+}
+
+.cart-answer-cage {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.confirmed-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmed-data .confirmed-img-cage {
+    width: 200px;
+    height: 100px;
+}
+
+.confirmed-img-cage .confirmed-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.confirmed-description {
+    padding: 5%;
+    padding-top: 0;
+    font-size: small;
+}
+
+.service-description {
+    color: gray;
+}
+
+.border-div {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    margin-top: 3%;
+}
+
+.for-rows {
+    justify-content: center;
+}
+.labelbank {
+    display: flex;
+    justify-content: center;
+}
+
+.for-rows {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 90px;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+
+.for-cols {
+    display: flex;
+    justify-content: space-around;
+}
+
+.decision-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardnumber {
+    display: flex;
+    justify-content: left;
+}

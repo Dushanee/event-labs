@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.15);
+    --card-background-color: #4c4b84;
+}
+
+.card-cage {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+
+.card {
+    width: 28%;
+    height: 200px;
+    background-color: var(--card-background-color);
+    padding: 20px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.ico-intro-cage {
+    color: #ffffff;
+}
+
+.backend {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.bxs-message {
+    font-size: 70px;
+    align-self: center;
+}
+
+.bxs-bookmark-heart {
+    font-size: 70px;
+    align-self: center;
+}
+
+.bxs-book-reader {
+    font-size: 70px;
+    align-self: center;
+}
+
+.ico-cage {
+    display: flex;
+    justify-content: center;
+}

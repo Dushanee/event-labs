@@ -1,0 +1,52 @@
+.common-review-cage {
+    width: 83%;
+    /* background-color: aqua; */
+    margin-left: 16.5%;
+    margin-top: 1.25%;
+}
+
+.username-cage-in-reviews {
+    margin-top: 1%;
+    color: #4c4b84;
+}
+
+.wrapper {
+    margin-left: 0;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.review-card {
+    margin: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 10px;
+    border-style: none;
+    /* text-decoration: none; */
+    color: #171720;
+}
+
+a {
+    text-decoration: none;
+}
+
+.create_notification {
+    background-color: #4c4b84;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.notification-library {
+    color: #171720;
+    font-size: larger;
+}

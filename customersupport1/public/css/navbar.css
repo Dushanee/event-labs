@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --iconColor: #171720;
+    --icon-nameColor: #171720;
+    --activeIconColor: #4c4b84;
+    --activeIcon-nameColor: #4c4b84;
+    --activeNavbarIconBgColor: #efeef1;
+    --activeNavbarIconLeftBorder: 5px solid #4c4b84;
+    --navbarBackgroundColor: #ffffff;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.navbar {
+    padding: 30px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-top: 4%;
+    margin-left: 0;
+    background-color: var(--navbarBackgroundColor);
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    align-items: center;
+}
+
+li a {
+    display: flex;
+    width: 90%;
+    /* justify-content: space-around; */
+    /* background-color: black; */
+    align-self: center;
+    text-decoration: none;
+    color: var(--iconColor);
+    height: 60px
+}
+
+.icon_name {
+    align-items: left;
+    display: block;
+    justify-content: space-around;
+}
+
+.ico {
+    align-items: left;
+    display: block;
+    justify-content: left;
+    width: 30px;
+}
+
+.bx {
+    font-size: large;
+}
+
+li a.active {
+    /* background-color: var(--activeNavbarIconBgColor); */
+    color: var(--activeIconColor);
+    /* border-left: 5px solid #4c4b84; */
+    /* border-top-right-radius: 5px; */
+    /* border-bottom-right-radius: 5px; */
+    width: 98%;
+    /* height: 45px; */
+    /* padding-bottom: 45px; */
+  }
+  
+  li i.active {
+    /* background-color: #8d8da7; */
+    color: var(--activeIcon-nameColor);
+    border-left: 5px solid var(--activeIconColor);
+  }
+  
+  li a:hover:not(.active) {
+      color: var(--activeIcon-nameColor);
+      /* background-color: #8d8da7; */
+      /* opacity: 0.3; */
+     /* transform: translate(1px, 1px);
+      /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 10px 0px #a5efea; */
+      transition: all 0.4s ease-in-out;
+      transform:scale(1.05)
+  }
+  
+  li i:hover:not(.active) {
+    /*color: var(--activeIcon-nameColor);
+    /* background-color: #8d8da7;
+    opacity: 0.3; */
+    /*transform: translate(1px, 1px);
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), inset 0px 0px 10px 0px #a5efea; */
+    transition: all 0.4s ease-in-out;
+    transform:scale(1.05)
+  }

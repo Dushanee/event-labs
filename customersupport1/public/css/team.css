@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.container0 {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+i {
+  font-size: 20px;
+  /* font-weight: 600; */
+}
+
+
+.common-cage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  position: absolute;
+  margin-top: 7%;
+  height: auto;
+  /* width: 100%; */
+}
+
+.table-cage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.topic {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+/* 
+.id {
+  width: auto;
+}
+
+.fname {
+  width: 50%;
+}
+
+.lname {
+  width: 50%;
+}
+
+.email {
+  width: 50%;
+}
+
+.message-btn {
+  width: 30%;
+} */
+
+
+tr {
+  justify-content: left;
+  padding: 20px;
+}
+
+td {
+  padding-left: 20px;
+}
+
+/* th {
+  justify-content: left;
+  background-color: #210e54;
+  color: #ffffff; */
+/* } */
+
+table {
+  width: 100%;
+}
+
+.common-cage {
+  width: 80%;
+}
+
+.main-row {
+  background-color: #6279a8;
+  height: 30px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.data-row {
+  background-color: #ffffff;
+  height: 30px;
+  padding: 5px;
+}
