@@ -1,0 +1,115 @@
+body{
+  padding:0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #210E54;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #7F6E86;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+/*  form container */
+.container {
+	position: absolute;
+	left: 30%;
+	Right:30%;
+	top: 130px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+	margin: 10px;
+	max-width: 400px;
+	max-height: 100%;
+	padding: 80px;
+	background-color: #EDEEEF;
+}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: 737CA1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #BDDDDF;
+  outline: none;
+}
+
+/* submit button */
+.button {
+  background-color: #210E54;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  opacity: 0.9;
+  position: relative;
+  left: 45px;  
+}
+
+.button:hover {
+  opacity: 5;
+}
+button {
+	border-radius: 20px;
+	border: 1px solid #210E54;
+	}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+.footerbar{
+	position: absolute;
+	width:100%;
+	height: 175px;
+	left: 0px;
+	top: 900px;
+
+	background: #210E54;
+}
+/*error*/
+
+.error{
+  background: #f2dede;
+  color: #a94442;
+  width: 75%;
+  height: 30px;
+  padding: 10px 0;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
